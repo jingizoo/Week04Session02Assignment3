@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jalaj.firstapp.progressbar.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnStartProgressBars"
+        android:text="Start"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/btnStartProgressBars"
+        android:id="@+id/prgBar1"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/prgBar1"
+        android:id="@+id/prgBar2"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/prgBar2"
+        android:id="@+id/prgBar3"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/prgBar3"
+        android:id="@+id/prgBar4"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+
+</RelativeLayout>
+
